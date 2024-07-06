@@ -1,0 +1,11 @@
+
+
+.container {
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.circle-shadow {
+  -webkit-box-shadow: 10px 8px 4.5px 3px #0f0f0f;
+-moz-box-shadow: 10px 8px 4.5px 3px #000000;
+box-shadow: 10px 8px 4.5px 3px #00000038;
+}
