@@ -9,3 +9,15 @@
 -moz-box-shadow: 10px 8px 4.5px 3px #000000;
 box-shadow: 10px 8px 4.5px 3px #00000038;
 }
+
+
+/* Flip on the X axis */
+.flip-horizontal {
+  --transform-scale-x: -1;
+}
+
+
+/* Flip on the Y axis */
+.flip-vertical {
+  --transform-scale-y: -1;
+}

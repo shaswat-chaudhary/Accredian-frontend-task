@@ -20,7 +20,7 @@ export const Header = () => {
             <div className="flex flex-col items-center py-10">
                 <div className="container bg-blue-100 rounded-3xl overflow-hidden max-w-7xl w-full flex flex-col lg:flex-row relative">
                    
-                    <div className="flex-1 flex items-center p-10  ">
+                    <div className="flex-1 flex items-center px-10">
 
                         <div className="lg:text-left space-y-16 pt-10">
                             <h1 className="text-7xl font-bold text-gray-900">Let's Learn &amp; Earn</h1>
@@ -32,19 +32,19 @@ export const Header = () => {
                     </div>
 
                     <div className="flex-1 flex items-center justify-center relative">
-                        <img src={heroPic} alt="Mobile Display" className="max-w-3xl h-auto z-10 " />
+                        <img src={heroPic} alt="Mobile Display" className="max-w-3xl z-30 " />
 
                     </div>
 
 
 
-                    <div className="absolute w-36 h-36 top-[-50px] left-[-10px]">
+                    <div className="flip-horizontal absolute w-36 h-36 top-[-50px] left-[-10px]">
                         <img src={currencyImg} alt="Currency Image" 
-                        className="w-full bg-red-400 z-40 rotate-100" />
+                        className="w-full z-40 rotate-90 transform flip-y-z-" />
                     </div>
-                    <div className="absolute w-36 h-36 bottom-0 left-[40%] transform scaleX(-1)">
+                    <div className="flip-horizontal absolute w-36 h-36 bottom-1 left-[43%] z-40">
                         <img src={currencyImg} alt="Currency Image" 
-                        className="w-full bg-red-400 z-40 transform scaleX(-1)" />
+                        className="flip-horizontal w-full z-50 rotate-[90deg]" />
                     </div>
                     <div className="absolute w-28 h-28 top-2 left-[55.5%]">
                         <img src={currencyImg} alt="Currency Image" 
@@ -56,7 +56,7 @@ export const Header = () => {
                     </div>
                     <div className="absolute w-36 h-36 top-[40%] right-4">
                         <img src={currencyImg} alt="Currency Image" 
-                        className="w-full bg-red-400 z-40 -rotate-90" />
+                        className="w-full z-40 -rotate-90" />
                     </div>
                     
                 </div>

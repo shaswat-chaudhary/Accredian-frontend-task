@@ -16,10 +16,10 @@ export const ReferPage = () => {
             <Header />
 
             <div>
-                <div className="flex flex-col items-center py-8 mt-6 bg-red-400">
+                <div className="flex flex-col items-center py-8 mt-6 bg-[#EEF5FF]">
                     <h1 className="text-2xl font-semibold text-gray-800">How Do I <span className="text-blue-600">Refer?</span></h1>
 
-                    <div className="flex flex-wrap justify-center my-10 space-x-16 py-16 bg-green-200">
+                    <div className="flex flex-wrap justify-center my-10 space-x-16 py-16">
 
 
                         <div className="circle-shadow w-64 h-64 bg-[#EEF5FF] rounded-full items-center flex flex-col justify-center">
@@ -50,21 +50,22 @@ export const ReferPage = () => {
 
             <div className='px-12'>
 
-                <div className='mx-auto max-w-7xl flex flex-col justify-evenly text-center h-[90vh]'>
+                <div className='mx-auto max-w-7xl flex flex-col justify-evenly text-center'>
 
-                    <h1 className='text-2xl font-semibold text-gray-800'>Frequently Asked
-                        <span className='text-[#1A73E8]'>Questions</span>
+                    <h1 className='text-2xl font-semibold text-gray-800 mt-20 pb-3'>Frequently Asked
+                        <span className='text-[#1A73E8]'> Questions</span>
                     </h1>
 
-                    <div className="flex flex-row ml-16">
+                    <div className="flex flex-row gap-20 py-10 mb-20 ml-14">
 
-                        <div className="flex flex-col space-y-4 ">
-                            <button className="px-4 py-2 text-blue-500 border rounded-lg hover:">Eligibility</button>
-                            <button className="px-4 py-2 border rounded-lg">How To Use?</button>
-                            <button className="px-4 py-2 border rounded-lg">Terms & Conditions</button>
+                        <div className="flex flex-col gap-5 w-1/3">
+                            <button className="text-lg font-medium text-[#1A73E8]  px-10 py-3 rounded-md container">Eligibility</button>
+                            <button className="text-lg font-medium text-gray-500 px-10 py-3 rounded-md border-2 border-gray-600 hover:shadow-xl">How To Use?</button>
+                            <button className="text-lg font-medium text-gray-500 px-10 py-3 rounded-md border-2 border-gray-600 hover:shadow-xl">Terms & Conditions</button>
                         </div>
-                        <div className="ml-8 text-start">
-                            <div className="mt-2 flex flex-col gap-3">
+                        
+                        <div className="flex text-start ">
+                            <div className="mt-2 flex flex-col gap-5">
                                 <p className="font-semibold text-blue-500">
                                     Do I need to have prior Product Management and Project Management experience to enroll in the program?
                                 </p>
@@ -74,21 +75,20 @@ export const ReferPage = () => {
                                 </p>
                                 <p className="mt-4 font-semibold">
                                     What is the minimum system configuration required?
-                                </p>
-                              
+                                </p>                           
                             </div>
                         </div>
                     </div>
 
 
-                    <div className="bg-[#1A73E8] flex items-center justify-between px-12 py-12 mb-28 rounded-xl">
-                        <div className="flex items-center">
-                            <div className="bg-white p-4 rounded-full mr-4">
-                                <TfiHeadphoneAlt className="text-[#1A73E8]" size={30} />
+                    <div className="bg-[#1A73E8] flex items-center justify-between px-12 py-14 mb-24 rounded-xl">
+                        <div className="flex items-center flex-row ">
+                            <div className="bg-white w-20 h-20 rounded-xl items-center flex justify-center mr-4">
+                                <TfiHeadphoneAlt className="text-[#1A73E8]" size={40} />
                             </div>
-                            <div>
-                                <h2 className="text-white text-2xl font-semibold">Want to delve deeper into the program?</h2>
-                                <p className="text-white text-sm tracking-wide">Share your details to receive expert insights from our program team!</p>
+                            <div className='text-start flex flex-col gap-3'>
+                                <h2 className="text-white text-3xl font-semibold">Want to delve deeper into the program?</h2>
+                                <p className="text-white text-lg tracking-wide">Share your details to receive expert insights from our program team!</p>
                             </div>
                         </div>
                         <button className="bg-white text-[#1A73E8] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Get in touch &rarr;</button>
